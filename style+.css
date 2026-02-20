@@ -1,0 +1,222 @@
+*{
+    margin: 0px 0px;
+    padding: 0px 0px;
+}
+
+html{
+    height: 100%;
+}
+
+body{
+    height: 100%;
+    text-align: center;
+    font-family: 'Noto Serif JP';
+}
+
+.top{
+    position: relative;
+    height: 100%;
+    text-align: center;
+    animation-name:anime1;
+    animation-duration:7s;
+    animation-timing-function: ease-out; 
+    animation-delay:0s; 
+    animation-iteration-count:1;
+    animation-direction:normal;
+    animation-fill-mode: both;
+}
+
+.title{
+    position: absolute;
+    top: 40%;
+    width: 100%;
+    font-size: 70px;
+    color: white;
+    text-align: center;
+    animation-name:anime3;
+    animation-duration:7s;
+    animation-timing-function: ease-out; 
+    animation-delay:0s; 
+    animation-iteration-count:1;
+    animation-direction:normal;
+    animation-fill-mode: both;
+}
+
+.br{
+    animation-name:anime2;
+    animation-duration:7s;
+    animation-timing-function: ease-out; 
+    animation-delay:0s; 
+    animation-iteration-count:1;
+    animation-direction:normal;
+    animation-fill-mode: both;
+}
+
+.ar{
+    animation-name:anime2;
+    animation-duration:5s;
+    animation-timing-function: ease-out; 
+    animation-delay:2s; 
+    animation-iteration-count:1;
+    animation-direction:normal;
+    animation-fill-mode: both;
+}
+
+@keyframes anime1 { 
+    0%{opacity: 0%;}
+    40%{opacity: 100%;}
+    70% {height: 100%;}
+    100%{height: 0%;}
+}
+
+@keyframes anime2 { 
+    0%{opacity: 0%;}
+    30% {opacity:0%}
+    60%{opacity: 80%;}
+}
+
+@keyframes anime3 { 
+    95%{color:white;}
+    100%{color: black;}
+}
+
+@keyframes anime4 { 
+    0%{opacity: 0%;}
+    
+    100%{opacity: 100%;}
+}
+
+.top img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.head{
+    text-align: center;
+}
+
+.head img{
+    padding-top: 110px;
+    width:100%;
+}
+nav{
+    width: 100%;
+    text-align: center;
+    padding-top: 10px;
+    font-family: 'Quicksand';
+    position: fixed;
+    bottom: 0px;
+    background-color: white;
+    height: 100px;
+
+    z-index: 1000;
+
+    animation-name: anime4;
+    animation-duration:1s;
+    animation-timing-function: linear; 
+    animation-delay:6s; 
+    animation-iteration-count:1;
+    animation-direction:normal;
+    animation-fill-mode: both;
+
+}
+nav ul{
+    margin: 0 ;
+    padding: 20px ;
+}
+nav li{
+    list-style: none;
+    display: inline-block;
+    width: 23%;
+}
+nav li:not(:last-child){
+    border-right:2px solid #ddd;
+}
+nav a{
+    text-decoration: none;
+    color: #333;
+    font-size: 40px;
+}
+
+.lst img{
+    width: 80%;
+    margin-top: 100px;
+    box-shadow:0px 0px 20px 10px gray;
+}
+
+.lst video{
+    width: 80%;
+    margin-top: 100px;
+    box-shadow:0px 0px 20px 10px gray;
+}
+
+.about{
+    margin: 10%;
+    text-align: center;
+}
+
+h1{
+    font-family:'Quicksand';
+    font-size: 60px;
+    color:gray;
+    padding-top: 70px;
+    padding-bottom: 20px;
+}
+
+h2{
+    font-family:'Quicksand';
+    font-size: 45px;
+    color:gray;
+    padding-top: 70px;
+    padding-bottom: 20px;
+}
+
+a{
+    text-decoration: none;
+    color:gray;
+}
+
+a:active{
+    color:black;
+}
+
+.about p{
+    text-align: left;
+    font-size: 35px;
+    padding-top: 10px;
+    color:rgb(100, 100, 100);
+}
+
+.name{
+    padding-top: 20px;
+    font-size: 30px;
+    text-align: right;
+    font-family:'Quicksand';
+    color:rgb(100, 100, 100);
+    padding-bottom: 50px;
+}
+
+.about img{
+    width: 100%;
+    height: 70%;
+}
+
+.gal img{
+    padding-top: 50px ;
+    width: 90%;
+}
+
+.mov{
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.mov video{
+    width: 95%;
+    margin-top: 100px;
+}
+
+.video h2{
+    padding-bottom: 130px;
+}
